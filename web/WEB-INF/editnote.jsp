@@ -13,13 +13,14 @@
     </head>
     <body>
         <h1>Simple Note Keeper</h1>
-        <br>
-        <h2>View Note</h2>
-        <br>
-        <h3>Title: </h3>
-        <br>
-        <h3>Contents: </h3>
-        <br>
-        <a href="">Edit</a> 
+        <h2>Edit note</h2>
+        <%--TODO--%>
+        <form method="post" action="note">
+            Title: <input type="text" name="title" value="">
+            <br><br><br>
+            Contents: <textarea name="contents" rows="5" cols="25"></textarea>
+            <br> <br>
+            <input type="submit" value="Save">
+        </form>
     </body>
 </html>

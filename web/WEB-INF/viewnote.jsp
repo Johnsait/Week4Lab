@@ -13,7 +13,10 @@
     </head>
     <body>
         <h1>Simple Note Keeper</h1>
-        <h2>Edit note</h2>
-        <%--TODO--%>
+        <h2>View Note</h2>
+        <h3>Title: </h3>
+        <h3>Contents: </h3>
+        <br>
+        <a href="note?edit">Edit</a> 
     </body>
 </html>
